@@ -1,0 +1,181 @@
+body {
+    background: #f3f3f3;
+}
+
+.filter, .content, .breadcrumbs {
+    padding: 18px;
+    background: #fff;
+    height: 100%;
+}
+
+.header {
+    padding: 10px 0;
+    border-bottom: solid 1px #ddd;
+    box-shadow: 0 0 3px #333;
+    background: #fff;
+}
+
+.navbar-light .navbar-nav.sign .nav-link {
+    margin-left: 0;
+    margin: 0 10px;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    position: relative;
+    margin-left: 48px;
+    color: rgba(0,0,0,.9);
+}
+
+li.active .nav-link:after, li .nav-link:hover:after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background: #557bff;
+    transition: .33s all ease-out;
+}
+
+.pd {
+    padding: 30px 0;
+}
+
+h1, h3 {
+    color: #557bff;
+}
+
+h1.title, h3.title {
+    margin-bottom: 30px;
+    font-size: 29px;
+    text-align: center;
+}
+
+.navbar-brand img {
+    height: 80px;
+}
+
+#carouselExampleIndicators img {
+    max-height: 60vh;
+    object-fit: cover;
+}
+
+.carousel.slide img {
+    height: 350px;
+    object-fit: cover;
+}
+
+.slide-title {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    color: #fff;
+    background: rgba(85, 123, 255, 0.5);
+    text-align: center;
+}
+
+.slide-title h3 {
+    color: #fff;
+    height: 100%;
+    line-height: 310px;
+}
+
+.services .avi-col {
+    padding-bottom: 30px;
+}
+
+.services .card-body {
+    position: absolute;
+    bottom: 0;
+    background: rgba(255,255,255,0.85);
+    width: 100%;
+    color: #333;
+    font-weight: bold;
+}
+
+.avi-services .card {
+    border: 0;
+}
+
+.services-intro {
+    padding: 18px;
+}
+
+.services-intro .btn.btn-success {
+    position: absolute;
+    bottom: 1.25rem;
+}
+
+.services .avi-col.avi-services .card {
+    height: 100%;
+}
+
+.card-date {
+    font-size: 11px;
+    color: #ababab;
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    background: url('../images/banner.jpeg');
+    background-position: center;
+    color: #fff;
+    margin: 0;
+}
+
+.btn-success {
+    border: solid 2px #557bff;
+    background: white;
+    color: #557bff;
+    border-radius: 0;
+}
+
+.btn-success:hover {
+    background: #557bff;
+    border-color: #557bff;
+    color: #fff;
+    outline: none;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+.icons .row > div {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.inline-childs > * {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+label.filter-item {
+    display: block;
+    margin-bottom: 8px;
+}
+
+span.filter-title {
+    color: #557bff;
+    font-size: 18px;
+}
+
+label.filter-item input[type=checkbox] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+.image-icon {
+    height: 200px;
+    object-fit: cover;
+}
